@@ -8,4 +8,4 @@ COPY entrypoint.sh /appops
 
 EXPOSE 8080
 
-ENTRYPOINT ./entrypoint.sh
+ENTRYPOINT ["./entrypoint.sh"]

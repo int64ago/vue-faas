@@ -8,9 +8,13 @@ Serve vue page in FaaS way.
 ## Usage
 
 ```bash
-docker run vue-faas foo
+docker run -p 8080:8080 vue-faas foo
 ```
 
+![](https://cdn.int64ago.org/d7730bb8-d914-4d91-8cda-a7ac6ccab5af.png)
+
 ```bash
-docker run vue-faas bar
+docker run -p 8080:8080 vue-faas bar
 ```
+
+![](https://cdn.int64ago.org/32d2fb59-7b25-49e6-ab67-87af9d62b473.png)
