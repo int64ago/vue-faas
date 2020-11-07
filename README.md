@@ -8,6 +8,10 @@ Serve vue page in FaaS way.
 ## Usage
 
 ```bash
+docker build -t vue-faas .
+```
+
+```bash
 docker run -p 8080:8080 vue-faas foo
 ```
 
